@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#96ff0000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As a child, you would wait\n
+And watch from far away\n
+
+But you always knew that you'd be\n
+The one that work while they all play\n
+
+In youth, you lay, awake at night and scheme\n
+Of all the things that you would change\n
+But it was just a dream\n
+
+Here we are, don't turn away now\n
+We are the warriors that built this town\n
+Here we are, don't turn away now\n
+We are the warriors that built this town from dust\n
+
+The time will come, when you'll have to rise\n
+Above the best, improve yourself\n
+Your spirit never dies\n
+
+Farewell, I've gone, to take my throne\n
+Above, don't weep for me because\n
+This will be the labor of my love\n
+
+Here we are, don't turn away now\n
+We are the warriors that built this town\n
+Here we are, don't turn away now\n
+We are the warriors that built this town from dust"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffe9e4"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.59"
+        android:scrollbars = "vertical|horizontal"
+        android:autoText="true" />
+
+    <MediaController
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:id="@+id/mediaController" />
+</LinearLayout>

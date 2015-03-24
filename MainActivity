@@ -1,5 +1,3 @@
-MainActivity
-
 package com.example.aleff.desafio;
 
 import java.util.Locale;
